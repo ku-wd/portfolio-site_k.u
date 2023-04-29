@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex , nofollow">
+  <title>Portfolio-site Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav gnavi">
+      <ul class="header__nav--items">
+        <li class="header__nav--item"><a href="index.html"  class="current" aria-current="page">ホーム</a></li>
+        <li class="header__nav--item"><a href="works.html" class="liner-works">制作事例</a></li>
+        <li class="header__nav--item"><a href="skill.html" class="liner-skill">スキル</a></li>
+        <li class="header__nav--item"><a href="about.html" class="liner-about">私について</a></li>
+        <li class="header__nav--item"><a href="contact.html" class="liner-contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger js-hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+  <main>
+    <div class="fv">
+      <video src="video/video_002.mp4" loop autoplay muted playsinline></video>
+      <div class="fv__text">
+        <h1 class="fv__title"><span class="font__lg eachTextAnime appeartext">希望</span>
+          <span class="font__md eachTextAnime appeartext">を実現させるために。</span>
+          </h1>
+        <p class="eachTextAnime appeartext">あなたのこうしたいを全力で叶えます。</p>
+      </div>
+    </div>
+    <section class="h-works inner">
+      <h2 class="sec__title">制作事例</h2>
+      <div class="h-works__content">
+        <ul class="h-works__content--items">
+          <li class="h-works__content--item js-zoomIn">
+            <a href="https://ku-wd.github.io/cafe_demo/" target="_blank">
+              <figure>
+                <img src="img/cafesite_01.png" width="330px" height="200px" alt="">
+              </figure>
+              <div class="h-works__content--text">
+                <div class="h-works__content--category">
+                  <div class="h-works__category">カフェ</div>
+                  <time class="h-works__date" datetime="2023-00-00">2023年00月00日</time>
+                </div>
+                <h3 class="h-works__title">シングルページサイト</h3>
+                <p>架空のカフェサイトです。シンプルなレイアウトの1ページのサイトなります。
+                  1ページで完結する内容です。</p>
+              </div>
+          </a></li>
+          <li class="h-works__content--item js-zoomIn">
+            <a href="https://ku-wd.github.io/house_demo/" target="_blank">
+              <figure>
+                <img src="img/corporatesite_02.png" width="330px" height="200px" alt="">
+              </figure>
+              <div class="h-works__content--text">
+                <div class="h-works__content--category">
+                  <div class="h-works__category">コーポレート</div>
+                  <time class="h-works__date" datetime="2023-00-00">2023年00月00日</time>
+                </div>
+                <h3 class="h-works__title">コーポレートサイト</h3>
+                <p>架空の建設会社のサイトです。メニューがサイドに固定されています。トップページのみ
+                  実装しています。</p>
+              </div>
+          </a></li>
+          <li class="h-works__content--item js-zoomIn">
+            <a href="https://ku-wd.github.io/salon_demo/" target="_blank">
+              <figure>
+                <img src="img/salonsite_03.png" width="330px" height="200px" alt="">
+              </figure>
+              <div class="h-works__content--text">
+                <div class="h-works__content--category">
+                  <div class="h-works__category">サロン</div>
+                  <time class="h-works__date" datetime="2023-00-00">2023年00月00日</time>
+                </div>
+                <h3 class="h-works__title">サロンサイト</h3>
+                <p>架空のサロンのサイトです。最近の流行りを取り入れたおしゃれなレイアウトになりま
+                  す。落ち着いた感じをイメージしています。</p>
+              </div>
+          </a></li>
+        </ul>
+      </div>
+      <div class="btn__area">
+        <button class="btn"><a href="works.html">view more</a></button>
+      </div>
+    </section>
+    <section class="h-skill inner">
+      <h2 class="sec__title">スキル</h2>
+      <div class="h-skill__content">
+        <div class="h-skill__text--area js-fadeLeft">
+          <div class="h-skill__content--text">
+            <h3 class="h-skill__title">私のスキルについて</h3>
+            <p>私が出来ることや普段使用しているツールなどを記載しています。
+              是非、ご覧になって下さい。</p>
+          </div>
+          <div class="btn__area">
+            <button class="btn"><a href="skill.html">view more</a></button>
+          </div>
+        </div>
+        <div class="h-skill__content--image">
+          <img src="img/skill_001.jpg" width="540px" height="355px" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="h-about inner">
+      <h2 class="sec__title">私について</h2>
+      <div class="h-about__content">
+        <div class="h-about__text--area js-fadeRight">
+          <div class="h-about__content--text">
+            <h3 class="h-about__title">私の経歴</h3>
+            <p>私のこれまでの経歴やWebのコーディングを始めたきっかけなどを少しだけ書いています。
+              ご興味がありましたら、是非。</p>
+          </div>
+          <div class="btn__area">
+            <button class="btn"><a href="about.html">view more</a></button>
+          </div>
+        </div>
+        <div class="h-about__content--image">
+          <img src="img/about_001.jpg" width="540px" height="355px" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="h-contact inner">
+      <h2 class="sec__title">お問い合わせ</h2>
+      <div class="h-contact__content">
+        <h3 class="h-contact__title">お問い合わせなどはこちらまで。</h3>
+        <div class="btn__area">
+          <button class="btn btn__contact"><a href="contact.html">入力フォームへ</a></button>
+        </div>
+      </div>
+    </section>
+    <div class="pagetop js-pagetop">
+      <a href="#"><p>page top</p></a>
+    </div>
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__nav">
+          <ul class="footer__nav--items">
+            <li class="footer__nav--item"><a href="index.html">ホーム</a></li>
+            <li class="footer__nav--item"><a href="works.html">制作事例</a></li>
+            <li class="footer__nav--item"><a href="skill.html">スキル</a></li>
+            <li class="footer__nav--item"><a href="about.html">私について</a></li>
+            <li class="footer__nav--item"><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </div>
+        <div class="copyright">
+          <p>&copy; portfolio-site by K.u</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!--自作のJS-->
+</body>
+</html>
